@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource File">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cb8c7ac4-106d-4350-bf16-a3aae870a047}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Source File</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingTexture.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm1.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DotNetUtilities.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainShader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppCLR_WinformsProjekt.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Common.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\ResourcePath.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\ShaderObject.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\tiny_obj_loader.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\ViewManager.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingTexture.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenMesh.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm1.cpp">
+      <Filter>Resource File</Filter>
+    </ClCompile>
+    <ClCompile Include="DotNetUitilities.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="MainShader.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Source File</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drawPickingFace.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="main.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="main.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="choosenVertex.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="choosenVertex.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="textureBackground.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="textureBackground.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="main.gs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="picking.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="drawPickingFace.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="drawPickingFace.gs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="picking.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

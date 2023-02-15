@@ -1,0 +1,43 @@
+#define BODYPARTSAMOUNT 33
+#define HEAD 0 v
+#define LEFTEAR 1
+#define RIGHTEAR 2
+#define LEFTEYE 3 v
+#define RIGHTEYE 4 v
+#define UPPERJAW 5 v
+#define LOWERJAW 6 v
+#define TEETH 7 v
+
+
+#define UPPERBACK 8 v
+#define MIDDLEBACK 9 v
+#define LOWERBACK 10 v
+#define TAILTOLOWERBUTT 11 v
+
+#define LEFTTHIGHCAP 12 v
+#define RIGHTTHIGHCAP 13 v
+
+#define LEFTKNEECAP 14 v
+#define RIGHTKNEECAP 15 v
+#define LEFTKNEEAROUND 16 v
+#define RIGHTKNEEAROUND 17 v
+
+#define LEFTSHIN 18 v
+#define RIGHTSHIN 19 v
+#define LEFTMIDDLESHIN 20 v
+#define RIGHTMIDDLESHIN 21 v
+#define LEFTTOE 22 //same means the bottom feet v
+#define RIGHTTOE 23 v
+
+
+#define RIGHTCHEST 24 v
+#define LEFTCHEST 25 v
+#define ABS 26 v
+
+#define LEFTUPPERARMDOWN 27 v
+#define LEFTLOWERARMTOP 28 v
+#define LEFTLOWERARMDOWN 29
+
+#define RIGHTUPPERARMDOWN 30 v
+#define RIGHTLOWERARMTOP 31 v
+#define RIGHTLOWERARMDOWN 32 v
